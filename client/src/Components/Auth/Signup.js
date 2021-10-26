@@ -55,8 +55,8 @@ const Signup = (props) => {
 
             <div className="queryBox">
                 <QueryContainer>
-                <SelectComponent  options={bloodOptions} isMulti={false}  onChange={handleChangeForBlood} defaultLabel={"Choose your district"}/>
-                <SelectComponent options={districtOptions} isMulti={false}  onChange={handleChangeForDistrict} defaultLabel={"Choose your blood type"}/>
+                <SelectComponent  options={bloodOptions} isMulti={false}  onChange={handleChangeForBlood} defaultLabel={"Choose your blood type"}/>
+                <SelectComponent options={districtOptions} isMulti={false}  onChange={handleChangeForDistrict} defaultLabel={"Choose your district"}/>
                 </QueryContainer>
 
             </div>
